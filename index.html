@@ -1,0 +1,2594 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" 
+        crossorigin="anonymous">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="index.css">
+
+        <!-- Google Fonts CSS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <!-- Fonts CSS -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+
+        <!-- Bootstrap Icon CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+        <!--Font Awesome Icon CDN-->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+            
+
+
+        <title>Overclockers</title>
+    </head>
+
+    <body>
+                
+        <!--Top Nav Bar Section-->
+        <section class="csttpnvbg d-none d-md-block">
+                <nav>
+                    <div class="container">
+                        <ul class="nav justify-content-end align-items-center">
+                            <li class="nav-item csttpnvitem px-2"><i class="bi bi-newspaper"></i> Blog</li>
+                            <li class="nav-item csttpnvitem px-2"><i class="bi bi-telephone me-1"></i>Phone</li>
+                            <li class="nav-item csttpnvitem px-2"><i class="bi bi-envelope me-1"></i>Contact</li>
+                            <li class="nav-item csttpnvitem px-2 csttpnvbd"><i class="bi bi-chat-fill me-1"></i>Forum</li>
+                        </ul>
+                    </div>
+                </nav>
+        </section>
+
+        <!--Nav Bar Section-->
+        <section class="bg-black">
+                <nav class="navbar cstnavbar navbar-expand-lg navbar-dark">
+                    <div class="container align-items-center border-bottom pb-1">
+                        <a class="navbar-brand d-block align-items-center" href="#home">
+                            <img src="Overclocker Logo.svg" alt="" width="200" height="49">
+                        </a>
+
+                        <div class="col d-none d-lg-flex search-bar align-items-center justify-content-center">
+                            <form class="ms-5">
+                                <div class="cstnvbg-white rounded d-flex">
+                                    <div class="col">
+                                        <input class="form-control cst-form-control  form-control-borderless" 
+                                        type="search" placeholder="keyword, Stock Code, MPN, EAN">
+                                    </div>
+                                    <div class="col-auto search-btn align-self-center">
+                                        <button class="bg-white">
+                                            <i class="bi bi-search p text-body"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        
+                        <div class="col justify-content-end  d-none d-lg-inline-flex align-items-center">
+                            <div class="row">
+                                <div class="col align-items-center navbaroptions">
+                                    <a href="#" class="text-decoration-none d-inline-flex align-items-center">
+                                        <i class="bi bi-heart"></i>
+                                        <small class="ms-1 d-none d-lg-block d-inline-flex">
+                                            WISH LIST
+                                        </small>
+                                    </a>
+                                </div>
+                                <div class="col align-items-center d-inline-flex navbaroptions">
+                                    <a href="#" class="text-decoration-none d-inline-flex align-items-center">
+                                        <i class="bi bi-person "></i>
+                                        <small class="ms-1 d-none d-lg-block d-inline-flex">
+                                            MyAccount
+                                        </small>
+                                    </a>
+                                </div>
+                                <div class="col align-items-center d-inline-flex border border-primary bg-primary navbaroptions">
+                                    <a href="#" class="text-decoration-none cst-nav-bg-icon">
+                                        <i class="bi bi-cart3 text-light"></i>
+                                    </a>
+                                    <small  class="ms-4 text-light d-none d-lg-block d-inline-flex">
+                                        £0.00*
+                                    </small>
+                                    <a href="#" class="ms-1 text-decoration-none cst-nav-bg-icon">
+                                        <i class="bi bi-chevron-down small text-light"></i>
+                                    </a>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>                 
+                </nav>
+                
+                <nav class="navbar navbar-expand-lg d-inline-flex col-6 col-lg-12  mt-lg-0 navbar-dark cst-bg-navmenu">
+                    <div class="container">
+                        <button class="navbar-toggler me-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon "></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+            
+                                <li class="nav-item dropdown has-megamenu">
+                                    <a class="nav-link text-light dropdown has-megamenu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        PC Sytems
+                                    </a>
+                                    <!-- dropdown-mega-menu -->
+                                    <div class="dropdown-menu megamenu pt-lg-0 mt-lg-0 mx-lg-5 mx-0" role="menu" data-bs-popper="none">
+                                        <div class="row g-3 p-3">
+                                            <div class="col-lg-3 col-6">
+                                                <div class="col-megamenu">
+                                                    <h6 class="Nav-item-title">Title Menu One</h6>
+                                                    <ul class="list-unstyled">
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                    </ul>
+
+                                                    <h6 class="Nav-item-title mt-3 border-bottom pb-2">Title Menu Two</h6>
+                                                    <ul class="list-unstyled">
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                    </ul>
+                                                </div>  <!-- col-megamenu.// -->
+                                            </div><!-- end col-3 -->
+                                            <div class="col-lg-3 col-6">
+                                                <div class="col-megamenu">
+                                                    <h6 class="Nav-item-title">Title Menu Two</h6>
+                                                    <ul class="list-unstyled">
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                    </ul>
+
+                                                    
+                                                </div>  <!-- col-megamenu.// -->
+                                            </div><!-- end col-3 -->
+                                            <div class="col-lg-3 col-6">
+                                                <div class="col-megamenu">
+                                                    <h6 class="Nav-item-title">Title Menu Three</h6>
+                                                    <ul class="list-unstyled">
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                    </ul>
+                                                </div>  <!-- col-megamenu.// -->
+                                            </div>    
+                                            <div class="col-lg-3 col-6">
+                                                <div class="col-megamenu">
+                                                    <h6 class="Nav-item-title">Title Menu Four</h6>
+                                                    <ul class="list-unstyled">
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                    </ul>
+                                                </div>  <!-- col-megamenu.// -->
+                                            </div><!-- end col-3 -->
+                                        </div><!-- end row --> 
+                                    </div> 
+                                    <!-- dropdown-mega-menu.// -->
+                                </li>
+            
+                                <li class="nav-item dropdown ">
+                                    <a class="nav-link text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Gaming Laptops
+                                    </a>
+                                </li>
+                            
+                                <li class="nav-item dropdown ">
+                                    <a class="nav-link text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Virtual Reality
+                                    </a>
+                                </li>
+            
+                                <li class="nav-item dropdown ">
+                                    <a class="nav-link text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Gaming
+                                    </a>
+                                </li>
+            
+                                <li class="nav-item dropdown ">
+                                    <a class="nav-link text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        PC Components
+                                    </a>
+                                </li>
+            
+                                <li class="nav-item dropdown ">
+                                    <a class="nav-link text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Cases &amp; Modding
+                                    </a>
+                                </li>
+            
+                                <li class="nav-item dropdown ">
+                                    <a class="nav-link text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Air Cooling
+                                    </a>
+                                </li>
+            
+                                <li class="nav-item dropdown ">
+                                    <a class="nav-link text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Water Cooling
+                                    </a>
+                                </li>
+            
+                                <li class="nav-item dropdown ">
+                                    <a class="nav-link text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Monitors
+                                    </a>
+                                </li>
+            
+                                <li class="nav-item dropdown ">
+                                    <a class="nav-link text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Peripherals
+                                    </a>
+                                </li>
+            
+                                <li class="nav-item dropdown ">
+                                    <a class="nav-link text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Networking
+                                    </a>
+                                </li>
+            
+                                <li class="nav-item dropdown ">
+                                    <a class="nav-link text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Cables
+                                    </a>
+                                </li>
+            
+                                <li class="nav-item dropdown ">
+                                    <a class="nav-link text-danger" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        %DEALS
+                                    </a>
+                                </li>
+            
+                            </ul>
+                        </div>
+                    </div> 
+                </nav>
+                <div class="col-5 d-lg-none d-inline-flex align-items-end justify-content-end ms-auto">
+                    <div class="row">
+                        <div class="col navbaroptions">
+                            <a href="#" class="text-decoration-none d-inline-flex">
+                                <i class="bi bi-heart"></i>
+                                <small class="ms-1 d-none d-inline-flex">
+                                    WISH LIST
+                                </small>
+                            </a>
+                        </div>
+                        <div class="col d-inline-flex navbaroptions">
+                            <a href="#" class="text-decoration-none d-inline-flex">
+                                <i class="bi bi-person "></i>
+                                <small class="ms-1 d-none d-inline-flex">
+                                    MyAccount
+                                </small>
+                            </a>
+                        </div>
+                        <div class="col d-inline-flex border border-primary bg-primary navbaroptions">
+                            <a href="#" class="text-decoration-none cst-nav-bg-icon">
+                                <i class="bi bi-cart3 text-light"></i>
+                            </a>
+                            <small  class="ms-4 text-light d-none d-inline-flex">
+                                £0.00*
+                            </small>
+                            <a href="#" class="ms-1 text-decoration-none cst-nav-bg-icon">
+                                <i class="bi bi-chevron-down small text-light"></i>
+                            </a>
+                        </div>
+                    </div>  
+                </div>
+
+                <!--
+                    <section class="text-white">
+                    <div class="navbar" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                        </ul>
+                        <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </section>
+                -->    
+            
+        </section>
+
+        <!--Container Wrapper Section-->
+        <section>
+                <div class="container wrapper">
+                    <div class="">  
+
+
+                        <!--Banner Section-->
+                        <div class="bg-dark banner">
+                            <div id="Banner-Carousel" class="carousel slide" data-bs-ride="carousel">
+
+                                <div class="carousel-indicators text-center d-none d-lg-block">
+                                    <button type="button" data-bs-target="#Banner-Carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#Banner-Carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#Banner-Carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#Banner-Carousel" data-bs-slide-to="3" aria-label="Slide 4"></button> 
+                                    <button type="button" data-bs-target="#Banner-Carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>   
+                                </div>
+
+                                
+                                <div class="carousel-inner">
+
+                                    <div class="banner_start  d-none d-lg-block">
+                                        <ul class="banner-sidebar  grid_4 first last">
+                                            <li style="height: 20%" type="button" data-bs-target="#Banner-Carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                                                <a href="#">
+                                                    <i class="bi bi-chevron-right active"></i>
+                                                    <span>noblechairs HERO ESO</span>
+                                                </a>
+                                            </li>
+                                            <li style="height: 20%" data-bs-target="#Banner-Carousel" data-bs-slide-to="1" aria-label="Slide 2">
+                                                <a href="#">
+                                                    <i class="bi bi-chevron-right small"></i>
+                                                    <span>AMD Dirt 5 Bundle</span>
+                                                </a>
+                                            </li>
+                                            <li style="height: 20%" data-bs-target="#Banner-Carousel" data-bs-slide-to="2" aria-label="Slide 3">
+                                                <a href="#">
+                                                    <i class="bi bi-chevron-right small"></i>
+                                                    <span>NVIDIA GeForce RTX 3080Ti</span>
+                                                </a>
+                                            </li>
+                                            <li style="height: 20%" data-bs-target="#Banner-Carousel" data-bs-slide-to="3" aria-label="Slide 4">
+                                                <a href="#">
+                                                    <i class="bi bi-chevron-right small"></i>
+                                                    <span>Ninjutso Origin One X</span>
+                                                </a>
+                                            </li>
+                                            <li style="height: 20%" data-bs-target="#Banner-Carousel" data-bs-slide-to="4" aria-label="Slide 5">
+                                                <a href="#">
+                                                    <i class="bi bi-chevron-right small"></i>
+                                                    <span>Jonsplus BO 100</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="carousel-item active">
+                                        <img src="https://www.overclockers.co.uk/media/image/210622-noblechairs-eso-HP.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://www.overclockers.co.uk/media/image/210421-AMD-Dirt-Promo-HP.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://www.overclockers.co.uk/media/image/210601-NVIDIA-3080ti-HP.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://www.overclockers.co.uk/media/image/210706-Ninjutso-Brand-Launch-HP.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://www.overclockers.co.uk/media/image/210628-jonsplus-bo100-hp.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                
+                            </div>
+
+                            <!--Covid Bar Section-->
+                            <ul class="covid-menu text-center">
+                                <li class="covid-menu-item">
+                                    <a class="covid-menu-link" href="#">CPU / GPU Pre-Order Status: <span class="covid-circle amber-circle"></span></a>
+                                </li>
+                                <li class="covid-menu-item">
+                                    <a class="covid-menu-link" href="#">Covid-19 Status: <span class="covid-circle green-circle"></span></a>
+                                </li>
+                                <li class="covid-menu-item">
+                                    <a class="covid-menu-link" href="#">CONTACTLESS CLICK &amp; COLLECT AVAILABLE</a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <!--3 Products Section-->
+                        <div class="row Three-Product bg-white py-3">
+                            <div class="col-4  Three-Product-col">
+                                <div class="d-flex">
+                                    <div class="Three-Product-col-left-first">
+                                        <i class="bi bi-controller h3 cst-icon-bg-circle"></i>
+                                        <span class="text-primary">
+                                            <small>
+                                                ALL ABOUT
+                                            </small>
+                                            <br>
+                                            <h4>
+                                                GAMING
+                                            </h4>
+                                        </span>
+
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    Systems by Game
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Configure your custom PC
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Pro Gaming Gear
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    VR Gaming
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Gaming Chairs
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Gaming Laptops
+                                                </a>
+                                            </li>
+                                            <li class="more">
+                                                <a href="#">
+                                                    Show me more
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="align-self-center">
+                                        <img src="https://www.overclockers.co.uk/media/image/all-about-trio-gaming.jpg" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 Three-Product-col">
+                                <div class="d-flex">
+                                    <div class="Three-Product-col-left">
+                                        
+                                        <i class="bi bi-speedometer2 h3 cst-icon-bg-circle"></i>
+                                        <span class="text-primary">
+                                            <small>
+                                                ALL ABOUT
+                                            </small>
+                                            <br>
+                                            <h4>
+                                                OVERCLOCKING
+                                            </h4>
+                                        </span>
+
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    Overclocked Systems
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Speed-binned CPUs
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Water Cooled Graphics Card
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    CPU Cooling
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    GPU Cooling
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    8pack
+                                                </a>
+                                            </li>
+                                            <li class="more">
+                                                <a href="#">
+                                                    Show me more
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="align-self-center">
+                                        <img src="https://www.overclockers.co.uk/media/image/all-about-trio-overclocking.jpg" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 Three-Product-col">
+                                <div class="d-flex">
+                                    <div class="Three-Product-col-left">
+                                        <i class="bi bi-tools h3 cst-icon-bg-circle"></i>
+                                        <span class="text-primary">
+                                            <small>
+                                                ALL ABOUT
+                                            </small>
+                                            <br>
+                                            <h4>
+                                                MODDING
+                                            </h4>
+                                        </span>
+
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    PC Cases
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Lighting & LED
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Side Panels & Windows
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Front & Top Covers
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Sleeved Cables
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Fan Controllers
+                                                </a>
+                                            </li>
+                                            <li class="more">
+                                                <a href="#">
+                                                    Show me more
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="align-self-center">
+                                        <img src="https://www.overclockers.co.uk/media/image/all-about-trio-modding.jpg" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--4 Cards Section-->
+                        <div class="row py-4 three-card-sec justify-content-center cst-bg-secondary  text-light">
+                            <div class="col-6 pb-5 pb-md-0 col-md-3">
+                                <h5 class="mb-1 fw-bold">
+                                    <i class="bi bi-arrow-up-circle text-primary"></i> 
+                                    UPGRADING
+                                </h5>
+                                <small class="d-block lh-1 py-2">
+                                    Motherboards, Processors, Graphics Cards, Memory, Storage, Coolers, Fans
+                                </small>
+                                <a href="#" class="cst-btn-border">
+                                    VIEW PRODUCTS
+                                </a>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <h5 class="mb-1 fw-bold">
+                                    <i class="bi bi-headset-vr text-primary"></i> 
+                                    EXPERIENCE VR
+                                </h5>
+                                <small class="d-block lh-1 py-2">
+                                    VR Headsets, VR Ready GPU, VR Ready PC, VR Ready Laptops, & VR Ready Bundles
+                                </small>
+                                <a href="#" class="cst-btn-border">
+                                    VIEW PRODUCTS
+                                </a>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <h5 class="mb-1 fw-bold">
+                                    <i class="bi bi-play-circle text-primary"></i> 
+                                    HOME & MEDIA
+                                </h5>
+                                <small class="d-block lh-1 py-2">
+                                    VR Headsets, VR Ready GPU, VR Ready PC, VR Ready Laptops, & VR Ready Bundles
+                                </small>
+                                <a href="#" class="cst-btn-border">
+                                    VIEW PRODUCTS
+                                </a>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <h5 class="mb-1 fw-bold">
+                                    <i class="bi bi-person-circle text-primary"></i> 
+                                    WORK
+                                </h5>
+                                <small class="d-block lh-1 py-2">
+                                    Workstations, Office PCs, Audio Workstations and Servers
+                                </small>
+                                <a href="#" class="cst-btn-border">
+                                    VIEW PRODUCTS
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--Mobile Section-->
+                        <div class="row bg-transparent g-1 py-3 text-center Mobile-section d-lg-none">
+                        
+                            <div class="col-12 col-md-6">
+                                <div class="card text-start">
+                                    <div class="card-body">
+                                        <h4 class="fw-normal pb-0 mb-0 text-uppercase lh-lg">
+                                            Custom Pc
+                                        </h4>
+                                        <span class="text-uppercase text-primary">
+                                            Build Your Next <br> Dream Pc
+                                        </span>
+                                        <img src="#" class="Img-fluid float-end" alt="Image here">
+                                        <button class="mt-2 cst-mob-btn-border d-block">
+                                            Build Your Pc
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <div class="card text-start">
+                                    <div class="card-body">
+                                        <h4 class="fw-normal pb-0 mb-0 text-uppercase lh-lg">
+                                            Custom Pc
+                                        </h4>
+                                        <span class="text-uppercase text-primary">
+                                            Build Your Next <br> Dream Pc
+                                        </span>
+                                        <img src="#" class="Img-fluid float-end" alt="Image here">
+                                        <button class="mt-2 cst-mob-btn-border d-block">
+                                            Build Your Pc
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <div class="card text-start">
+                                    <div class="card-body">
+                                        <h4 class="fw-normal pb-0 mb-0 text-uppercase lh-lg">
+                                            Custom Pc
+                                        </h4>
+                                        <span class="text-uppercase text-primary">
+                                            Build Your Next <br> Dream Pc
+                                        </span>
+                                        <img src="#" class="Img-fluid float-end" alt="Image here">
+                                        <button class="mt-2 cst-mob-btn-border d-block">
+                                            Build Your Pc
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <div class="card text-start">
+                                    <div class="card-body">
+                                        <h4 class="fw-normal pb-0 mb-0 text-uppercase lh-lg">
+                                            Custom Pc
+                                        </h4>
+                                        <span class="text-uppercase text-primary">
+                                            Build Your Next <br> Dream Pc
+                                        </span>
+                                        <img src="#" class="Img-fluid float-end" alt="Image here">
+                                        <button class="mt-2 cst-mob-btn-border d-block">
+                                            Build Your Pc
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--/Mobile Section-->
+
+                        <!--Not Showing On Mobile-->
+
+                        <!--Today Only Category-->
+                        <div class="d-flex d-none d-lg-flex Today-now">
+                            <div class="ps-0 Noblechairs">
+                                <div class="hpl py-5">
+                                    <a href="#" class="wrpr">
+                                        <img src="https://www.overclockers.co.uk/media/image/lrg_noblechairs.png" class="hdrlg" alt="">
+                                        <div class="hpl-i3">&nbsp;</div>
+                                        <div class="hpl-i2">&nbsp;</div>
+                                        <div class="hpl-i1">&nbsp;</div>
+                                        <a href="#" class="cst-btn-border pstnr">
+                                            VIEW RANGE
+                                        </a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col p-4 justify-content-center today-now-product">
+                                <a href="#">
+                                    <div class="d-inline-flex">
+                                        <div class="align-self-center">
+                                            <p class="border text-header bg-primary fw-bolder p-2 text-white">
+                                                TODAY ONLY
+                                            </p>
+                                        </div>
+                                        
+                                        <div class="ms-5 align-self-center">
+                                            <small class="text-dark">
+                                                be quiet!
+                                            </small>
+                                            <p class="text-uppercase text-primary">
+                                                Pure Base 600 Midi Tower Case - Orange Win..
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                    <div class="d-flex">
+                                        <img src="https://www.overclockers.co.uk/media/image/thumbnail/CA11ZBQ_165808_285x255.jpg" class="img-fluid w-25" alt="">
+                                        <!--Right Section-->
+                                        <div class="ms-4 align-self- me-1">
+                                            <small>
+                                                <span class="text-dark">
+                                                    <i class="bi bi-star small"></i>
+                                                    <i class="bi bi-star small"></i>
+                                                    <i class="bi bi-star small"></i>
+                                                    <i class="bi bi-star small"></i>
+                                                    <i class="bi bi-star small"></i>
+                                                    <i class="bi bi-star small"></i>
+                                                    (0)
+                                                </span>
+                                                <span class="text-success ms-4">
+                                                    <i class="bi bi-circle-fill small"></i>
+                                                    20+ In stock
+                                                </span>
+                                            </small>
+                                            <p class="text-dark border-dark py-2 border-bottom pb-3">
+                                                <small class="">
+                                                    
+                                                    Pure Base 600 offers a great deal of 
+                                                    functionality and features for an 
+                                                    attractive price. Smart usability 
+                                                    features and whisper-quiet...
+
+                                                </small>
+                                            </p>
+                                            <div class="d-flex">
+                                                <span Class="text-dark">
+                                                    <small class="border me-2 d-inline-flex px-1 border-danger bg-danger text-light ">
+                                                        -9%
+                                                    </small>
+                                                    <small Class="text-danger">
+                                                        was: £93.95
+                                                    </small>
+                                                    <br>
+                                                <h4>
+                                                    £84.95*
+                                                </h4>
+                                                </span>
+                                                <div class="align-self-center me-1 mx-auto">
+                                                    <button class="btn btn-primary btn-md">
+                                                        ADD TO BASKET
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-1 hpp">
+                                <a href="#" class="wrpr">
+                                    <div class="hpl-p3">&nbsp;</div>
+                                    <div class="hpl-p2">&nbsp;</div>
+                                    <div class="hpl-p1">&nbsp;</div>
+                                    <img src="https://www.overclockers.co.uk/media/image/hpt_i8l.png" class="hdrlg2">
+                                    <div class="twr">
+                                        <p class="hp-dtitle">
+                                            PRESTIGE PCS<br>WITH EXTREME PERFORMANCE
+                                        </p>
+                                    </div>
+                                </a>
+                                <a href="#" class="cst-btn-border pstnr">
+                                    VIEW RANGE
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--Upgrade your setup Section-->
+                        <div class="row d-none d-lg-flex Upgrade-setup text-light">
+                            <div class="col-8 d-flex hp-world-container">
+                                <!--Upgrade your setup Text Section-->
+                                <div class="col-5 hp-world-body">
+                                    <h3 class="cst-title border-bottom pb-2">
+                                        UPGRADE <br> YOUR SETUP
+                                    </h3>
+                                    <p>
+                                        Everything from peripherals, to the best gaming chairs... Upgrade today!
+                                    </p>
+                                    <ul>
+                                        <li class="hp-list-item">
+                                            <a href="#">
+                                                <span class="text-light">
+                                                    OCUK Gaming PCs
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="hp-list-item">
+                                            <a href="#">
+                                                <span class="text-light">
+                                                    INFIN8 Extreme PCs
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="hp-list-item">
+                                            <a href="#">
+                                                <span class="text-light">
+                                                    144Hz Monitors
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="hp-list-item">
+                                            <a href="#">
+                                                <span class="text-light">
+                                                    4k Monitors
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="hp-list-item">
+                                            <a href="#">
+                                                <span class="text-light">
+                                                    Elite Tier Peripherals
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="hp-list-item">
+                                            <a href="#">
+                                                <span class="text-light">
+                                                    Gaming Laptops
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="hp-list-item">
+                                            <a href="#">
+                                                <span class="text-light">
+                                                    Gaming Chairs
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>                       
+                                
+                                <!-- Upgrade your setup Images section-->
+                                <div>
+                                    <div id="hp-peripherals-info" class="">
+                                        <div class="hp-product-info-left">
+                                            <img src="https://www.overclockers.co.uk/./media/image/corsair-hp-logo.png" alt="Corsair" width="" border="0" style="display:block;">
+                                            <a href="#" style="font-size: 14px !important; line-height: 16px !important;" class="hp-info-link-title">Gaming Peripherals</a>
+                                        </div>
+                                    </div>
+                                    <div id="hp-gunnar-info" class="hp-info-show">
+                                        <div class="hp-product-info-left">
+                                            <img src="https://www.overclockers.co.uk/./media/image/hp-gunnar-logo-min.png" alt="Gunnar Optiks" width="" border="0" style="display:block;">
+                                            <a href="#" style="font-size: 14px !important; line-height: 16px !important;" class="hp-info-link-title">Protective Eyewear</a>
+                                        </div>
+                                    </div>
+                                    <div id="hp-egg-info" class="">
+                                        <div class="hp-product-info-left">
+                                            <img src="https://www.overclockers.co.uk/./media/image/hp-egg-logo-min.png" alt="EndGame Gear" width="" border="0" style="display:block;">
+                                            <a href="#" style="font-size: 14px !important; line-height: 16px !important;" class="hp-info-link-title">Worlds Fastest Gaming Mouse</a>
+                                        </div>
+                                    </div>
+                                    <div id="hp-monitor-info" class="">
+                                        <div class="hp-monitor-info">
+                                            <a href="#" style="font-size: 14px !important; line-height: 16px !important;" class="hp-info-link-title">ASUS ROG Swift PG27UQ 27"</a>
+                                            <a href="#" style="font-size: 12px !important; line-height: 14px !important;" class="hp-info-link">3840x2160, 144Hz Refresh Rate,<br>G-Sync &amp; IPS</a>
+                                        </div>
+                                    </div>
+                                    <div id="hp-system-info" class="">
+                                        <div class="hp-system-info">
+                                            <a href="#" style="font-size: 14px !important; line-height: 16px !important;" class="hp-info-link-title">OCUK Germanium X</a>
+                                            <a href="#" style="font-size: 12px !important; line-height: 14px !important;" class="hp-info-link">Intel Core i9 @ 4.8Ghz,<br>NVIDIA RTX, Phanteks Evolv X Case</a>
+                                        </div>
+                                    </div>
+                                    <div id="hp-noble-info" class="">
+                                        <div class="hp-noble-info">
+                                            <a href="#" style="font-size: 14px !important; line-height: 16px !important;" class="hp-info-link-title">Nitro Concepts Gaming Chairs</a>
+                                            <a href="#" style="font-size: 12px !important; line-height: 14px !important;" class="hp-info-link">C100, S300, and S300EX</a>
+                                        </div>
+                                    </div>
+                                    <div id="hp-desk-info">
+                                        <div class="hp-desk-info">
+                                            <a href="#" style="font-size: 14px !important; line-height: 16px !important;" class="hp-info-link-title">Nitro Concepts Gaming Desks</a>
+                                            <a href="#" style="font-size: 12px !important; line-height: 14px !important;" class="hp-info-link">View the range now</a>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    <div class="hp-desk">
+                                        <img src="https://www.overclockers.co.uk/./media/image/ocuk-world-uys-nitro-desk-2020.png" alt="Gunnar Glasses" class="hp-product hp-dim" id="hp-desk">
+                                        <div class="pulsating-circle">
+                                            <btn class="hp-btn" id="hp-desk-more">
+                                                <i class="fa fa-plus"></i>
+                                            </btn>
+                                        </div>
+                                    </div>
+                                    <div class="hp-gunnar">
+                                        <img src="https://www.overclockers.co.uk/./media/image/ocuk-world-uys-gunnar-2020.png" alt="Gunnar Glasses" class="hp-product hp-dim hp-active" id="hp-gunnar">
+                                        <div class="pulsating-circle">
+                                            <btn class="hp-btn" id="hp-gunnar-more">
+                                                <i class="fa fa-plus"></i>
+                                            </btn>
+                                        </div>
+                                    </div>
+                                    <div class="hp-peripherals">
+                                        <img src="https://www.overclockers.co.uk/./media/image/corsair-hp-uys.png" alt="Corsair Peripherals" class="hp-product hp-dim" style="width: 268px;" id="hp-peripherals">
+                                        <div class="pulsating-circle">
+                                            <btn class="hp-btn" id="hp-peripherals-more">
+                                                <i class="fa fa-plus"></i>
+                                            </btn>
+                                        </div>
+                                    </div>
+                                    <div class="hp-egg">
+                                        <img src="https://www.overclockers.co.uk/./media/image/ocuk-world-uys-endgame-2020.png" alt="EndGame Gear XM1" class="hp-product hp-dim" id="hp-egg">
+                                        <div class="pulsating-circle" style="margin-left: -15px; margin-top: 15px;">
+                                            <btn class="hp-btn" id="hp-egg-more">
+                                                <i class="fa fa-plus"></i>
+                                            </btn>
+                                        </div>
+                                    </div>
+                                    <div class="hp-monitor">
+                                        <img src="https://www.overclockers.co.uk/./media/image/ocuk-world-uys-swift-2020.png" alt="Benq Monitor" class="hp-product hp-dim" id="hp-monitor">
+                                        <div class="pulsating-circle">
+                                            <btn class="hp-btn" id="hp-monitor-more">
+                                                <i class="fa fa-plus"></i>
+                                            </btn>
+                                        </div>
+                                    </div>
+                                    <div class="hp-system">
+                                        <img src="https://www.overclockers.co.uk/./media/image/ocuk-world-uys-germanium-2020.png" alt="OCUK Gaming Germanium X" class="hp-product hp-dim" id="hp-system">
+                                        <div class="pulsating-circle" style="margin-left: 10px; margin-top: -30px;">
+                                            <btn class="hp-btn" id="hp-system-more">
+                                                <i class="fa fa-plus"></i>
+                                            </btn>
+                                        </div>
+                                    </div>
+                                    <div class="hp-noble">
+                                        <img src="https://www.overclockers.co.uk/./media/image/ocuk-world-uys-nitro-chair-2020.png" alt="noblechairs HERO" class="hp-product hp-dim" id="hp-noble">
+                                        <div class="pulsating-circle" style="margin-left: 0px;">
+                                            <btn class="hp-btn" id="hp-noble-more">
+                                                <i class="fa fa-plus"></i>
+                                            </btn>
+                                        </div>
+                                    </div>
+                                </div>
+                                    
+                            </div>
+
+                            <!-- Upgrade your setup Images Section-->
+                            <div class="col d-block m-0 p-0 bg-dark">
+                                <!--Carousel Slide Only-->
+                                <div class="col-12">
+                                    <div id="carouselSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <a href="#">
+                                                <div class="carousel-item active">
+                                                    <img src="https://www.overclockers.co.uk/media/image/egg-xm1-rgb-hp-small.png" class="d-block w-100" alt="...">
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="carousel-item">
+                                                    <img src="https://www.overclockers.co.uk/media/image/egg-xm1-rgb-hp-small.png" class="d-block w-100" alt="...">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!--Custom Built PC Slider-->
+                                <div class="col-12">
+                                    <div id="CustomBuiltPCSlider" class="carousel slide m-0 p-0" data-bs-ride="carousel">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#CustomBuiltPCSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#CustomBuiltPCSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#CustomBuiltPCSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            <button type="button" data-bs-target="#CustomBuiltPCSlider" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                        </div>
+                                        <div class="carousel-inner">
+                                            <h4 class="text-center fw-normal py-2">
+                                                Custom Built PC
+                                            </h4>
+                                            <div class="carousel-item active">
+                                                <a href="#">
+                                                    <img src="https://www.overclockers.co.uk/media/image/system-slider-2021-04-enig-ess.png" class="d-block w-100" alt="...">
+                                                </a>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <a href="#">
+                                                    <img src="https://www.overclockers.co.uk/media/image/system-slider-2021-04-kestral.png" class="d-block w-100" alt="...">
+                                                </a>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <a href="#">
+                                                    <img src="https://www.overclockers.co.uk/media/image/system-slider-2021-04-enig-enth.png" class="d-block w-100" alt="...">
+                                                </a>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <a href="#">
+                                                    <img src="https://www.overclockers.co.uk/media/image/system-slider-2021-04-gallium.png" class="d-block w-100" alt="...">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#CustomBuiltPCSlider" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#CustomBuiltPCSlider" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>                
+
+                        <!--WHAT'S HOT'-->
+                        <div class="bg-white d-none d-lg-block whats-hot text-center">
+                            <h4 class="border-bottom pb-2">
+                                WHAT'S HOT'
+                            </h4>
+                            <!--WHAT'S HOT PRODUCTS Section-->
+                            <div class="py-lg-5 py-4">
+                                <div id="Whats-hot-products-slider" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+                                    <!--Carousel Control-->
+                                    <div class="carousel-indicators carousel-indicators-2">
+                                        <button type="button" data-bs-target="#Whats-hot-products-slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#Whats-hot-products-slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#Whats-hot-products-slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#Whats-hot-products-slider" data-bs-slide-to="3" aria-label="Slide 4"></button> 
+                                        <button type="button" data-bs-target="#Whats-hot-products-slider" data-bs-slide-to="4" aria-label="Slide 5"></button>   
+                                    </div>
+                                
+                                    <!--Slides-->
+                                    <div class="carousel-inner" role="listbox">
+                                
+                                        <!--First slide-->
+                                        <div class="carousel-item active">
+
+                                            <div class="row  justify-content-around">
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+                                        <!--/.First slide-->
+
+                                        <!--Second slide-->
+                                        <div class="carousel-item">
+                                    
+                                            <div class="row justify-content-around">
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    
+                                        </div>
+                                        <!--/.Second slide-->
+
+                                        <!--Third slide-->
+                                        <div class="carousel-item">
+                                    
+                                            <div class="row justify-content-around">
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    
+                                        </div>
+                                        <!--/.Third slide-->
+
+                                        <!--Four slide-->
+                                        <div class="carousel-item">
+                                    
+                                            <div class="row justify-content-around">
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    
+                                        </div>
+                                        <!--/.Four slide-->
+
+                                        <!--Five slide-->
+                                        <div class="carousel-item">
+                                    
+                                            <div class="row justify-content-around">
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-2  pe-lg-3 pe-2" style="float:left">
+                                                    <div class="mb-2  whats-hot-product">
+                                                        <img class=""
+                                                        src="https://www.overclockers.co.uk/media/image/thumbnail/FS1D9EP_285440_105x105.jpg" 
+                                                        alt="Card image cap">
+                                                        <p class="pt-1 text-dark  pb-2 d-inline-block card-title">
+                                                            Express 
+                                                            <a href="#" class="text-primary text-decoration-none">
+                                                                Systems OcUK Gaming FSG Core - 1080p Pre-Built Gaming PC
+                                                            </a>
+                                                            <hr class="text-dark-50 m-0">
+                                                        </p>
+                                                        <h5 class="price">
+                                                            <span class="price-inner">
+                                                                £899.99*
+                                                            </span>
+                                                        </h5>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    
+                                        </div>
+                                        <!--/.Five slide-->
+                                    
+                                        <!--/.Slides-->
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#Whats-hot-products-slider" data-bs-slide="prev">
+                                            <span class="" aria-hidden="true">
+                                                <i class="carousel-control-prev  bi bi-chevron-left h1 text-dark"></i>
+                                            </span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#Whats-hot-products-slider" data-bs-slide="next">
+                                            <span class="" aria-hidden="true">
+                                                <i class="carousel-control-next  bi bi-chevron-right h1 text-dark"></i>
+                                            </span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+
+                                    </div>
+                                
+                                </div>
+                                
+                            
+                            </div>
+                            <!--/.Carousel Wrapper-->
+                        </div>
+
+                        <!--/Not Showing On Mobile-->
+
+                        <!--System Configurator-->
+                        <div class="row  system-con pt-4">
+                            <!--Left Section-->
+                            <div class="col-6 col-lg-4">
+                                <h5 class="mb-4">
+                                    <i class="fa fa-cog H5" aria-hidden="true"></i>
+                                    SYSTEM CONFIGURATOR
+                                </h5>
+                                <P class="mb-5">
+                                    The OcUK Configurator is designed for those who want a completely custom PC. Every part of your system, from the CPU, graphics card and motherboard - all the way to the LED lighting, monitor, and the chair that you sit in can be chosen from a long, hand-selected list of options. Build your ultimate dream PC!
+                                </P>
+
+                                <h6 class="border-bottom pb-3">
+                                    WHAT ARE YOUR NEEDS?
+                                </h6>
+                                <ul>
+                                    <li data-bs-target="#Gaming-pc-slider"> 
+                                        <a href="#Gaming-pc-slider">
+                                            Gaming PC
+                                        </a>
+                                    </li>
+                                    <li data-bs-target="#Home-and-small-office-slider">
+                                        <a href="#Home-and-small-office-slider">
+                                            Home and small Office
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!--Slider Section-->
+                            <div class="col-6 col-lg-4">
+                                <!--GAMING PC SECTION   -->
+                                <div>
+                                    <h5 class="mb-1 text-center fw-normal">
+                                        Gaming PC
+                                    </h5>
+                                    <!--Carousel Slider-->
+                                    <div id="Gaming-pc-slider" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+        
+                                        <div class="carousel-item text-center active">
+                                            <img src="https://www.overclockers.co.uk/media/image/thumbnail/FS01XTL_24974760ca25e47e27c_285x255.png" class="ms-lg-5 img-fluid d-block w-30" alt="...">
+                                            <p class="border-bottom pb-2">
+                                                Design and customise your own Intel Comet Lake system!
+                                                With options starting from Intel Core i5 gaming systems
+                                                right on through to Intel Core i9 extreme machines.
+                                            </p>
+                                            <h5 class="">
+                                                £1618.51
+                                            </h5 class="">
+                                            <button class="btn btn-md btn-light rounded-0">
+                                                <a href="#" class="text-uppercase text-primary fw-normal text-decoration-none">
+                                                    Configure Now
+                                                </a>
+                                            </button>
+                                        <br></br>
+                                            <span class="d-inline-block">
+                                                1
+                                            </span>
+                                            <span class="d-inline-block">
+                                                /8
+                                            </span>
+                                        </div>
+        
+                                        <div class="carousel-item text-center">
+                                            <img src="https://www.overclockers.co.uk/media/image/thumbnail/FS01UTL_240922_285x255.png" class="ms-lg-5 img-fluid d-block w-30" alt="...">
+                                            <p class="border-bottom pb-2">
+                                                Design and customise your own Ryzen 3000 system!
+                                                With options starting from Ryzen 5 3600 gaming 
+                                                systems right on through to Ryzen 9 3950X extreme machines.
+                                            </p>
+                                            <h5 class="">
+                                                £1452.77
+                                            </h5 class="">
+                                            <button class="btn btn-md btn-light rounded-0">
+                                                <a href="#" class="text-uppercase text-primary fw-normal text-decoration-none">
+                                                    Configure Now
+                                                </a>
+                                            </button>
+                                        <br></br>
+                                            <span class="d-inline-block">
+                                                2
+                                            </span>
+                                            <span class="d-inline-block">
+                                                /8
+                                            </span>
+                                        </div>
+                                        
+                                        <div class="carousel-item text-center">
+                                            <img src="https://www.overclockers.co.uk/media/image/thumbnail/FS1E1OG_240176_285x255.png" class="ms-lg-5 img-fluid d-block w-30" alt="...">
+                                            <p class="border-bottom pb-2">
+                                                Design and customise your own Ryzen Threadripper system!
+                                                Powerhouse professional/gaming systems with up to 64 threads
+                                                of CPU grunt!, Cooling provided by the MasterLiquid ML360
+                                            </p>
+                                            <h5 class="">
+                                                £3233.77
+                                            </h5 class="">
+                                            <button class="btn btn-md btn-light rounded-0">
+                                                <a href="#" class="text-uppercase text-primary fw-normal text-decoration-none">
+                                                    Configure Now
+                                                </a>
+                                            </button>
+                                        <br></br>
+                                            <span class="d-inline-block">
+                                                3
+                                            </span>
+                                            <span class="d-inline-block">
+                                                /8
+                                            </span>
+                                        </div>
+        
+                                        <div class="carousel-item text-center">
+                                            <img src="https://www.overclockers.co.uk/media/image/thumbnail/FS01KTL_181385_285x255.png" class="ms-lg-5 img-fluid d-block w-30" alt="...">
+                                            <p class="border-bottom pb-2">
+                                                Create your own high performance Z390 SLI/Crossfire gaming PC.
+                                                Featuring the latest Intel processors plus Nvidia RTX &amp;
+                                                AMD RX graphics cards you can create the perfect dual GPU gaming computer.
+                                            </p>
+                                            <h5 class="">
+                                                £1203.77
+                                            </h5 class="">
+                                            <button class="btn btn-md btn-light rounded-0">
+                                                <a href="#" class="text-uppercase text-primary fw-normal text-decoration-none">
+                                                    Configure Now
+                                                </a>
+                                            </button>
+                                        <br></br>
+                                            <span class="d-inline-block">
+                                                4
+                                            </span>
+                                            <span class="d-inline-block">
+                                                /8
+                                            </span>
+                                        </div>
+        
+                                        <div class="carousel-item text-center">
+                                            <img src="https://www.overclockers.co.uk/media/image/thumbnail/FS01MTL_253636_285x255.png" class="ms-lg-5 img-fluid d-block w-30" alt="...">
+                                            <p class="border-bottom pb-2">
+                                                Customise the very latest Z390 Gaming PC. Choose from the latest
+                                                Nvidia GTX or AMD RX graphics cards & wide range of Intel Processors.
+                                                Built and tested by experts with 3 years warranty as standard.
+                                            </p>
+                                            <h5 class="">
+                                                £868.91
+                                            </h5 class="">
+                                            <button class="btn btn-md btn-light rounded-0">
+                                                <a href="#" class="text-uppercase text-primary fw-normal text-decoration-none">
+                                                    Configure Now
+                                                </a>
+                                            </button>
+                                        <br></br>
+                                            <span class="d-inline-block">
+                                                5
+                                            </span>
+                                            <span class="d-inline-block">
+                                                /8
+                                            </span>
+                                        </div>
+        
+                                        <div class="carousel-item text-center">
+                                            <img src="https://www.overclockers.co.uk/media/image/thumbnail/FS01CTL_249238_285x255.png" class="ms-lg-5 img-fluid d-block w-30" alt="...">
+                                            <p class="border-bottom pb-2">
+                                                Configurate your own watercooled, high performance,
+                                                AMD X570 Ryzen Gaming PC & have it built by
+                                                our experts in the OcUK Techlabs!
+                                            </p>
+                                            <h5 class="">
+                                                £2047.37
+                                            </h5 class="">
+                                            <button class="btn btn-md btn-light rounded-0">
+                                                <a href="#" class="text-uppercase text-primary fw-normal text-decoration-none">
+                                                    Configure Now
+                                                </a>
+                                            </button>
+                                        <br></br>
+                                            <span class="d-inline-block">
+                                                6
+                                            </span>
+                                            <span class="d-inline-block">
+                                                /8
+                                            </span>
+                                        </div>
+        
+                                        <div class="carousel-item text-center">
+                                            <img src="https://www.overclockers.co.uk/media/image/thumbnail/FS01WTL_249216_285x255.png" class="ms-lg-5 img-fluid d-block w-30" alt="...">
+                                            <p class="border-bottom pb-2">
+                                                Configurate your own watercooled, high performance, Intel Z590 Comet/Rocket
+                                                Lake Gaming PC & have it built by our experts in the OcUK Techlabs!
+                                            </p>
+                                            <h5 class="">
+                                                £2030.45
+                                            </h5 class="">
+                                            <button class="btn btn-md btn-light rounded-0">
+                                                <a href="#" class="text-uppercase text-primary fw-normal text-decoration-none">
+                                                    Configure Now
+                                                </a>
+                                            </button>
+                                        <br></br>
+                                            <span class="d-inline-block">
+                                                7
+                                            </span>
+                                            <span class="d-inline-block">
+                                                /8
+                                            </span>
+                                        </div>
+        
+                                        <div class="carousel-item text-center">
+                                            <img src="https://www.overclockers.co.uk/media/image/thumbnail/FS01YTL_255208_285x255.jpg" class="ms-lg-5 img-fluid d-block w-30" alt="...">
+                                            <p class="border-bottom pb-2">
+                                                Design and customise your own Intel Comet Lake system!
+                                                With options starting from Intel Core i3
+                                                gaming systems right on through to Intel Core i7 10700K extreme machines.
+                                            </p>
+                                            <h5 class="">
+                                                £939.77
+                                            </h5 class="">
+                                            <button class="btn btn-md btn-light rounded-0">
+                                                <a href="#" class="text-uppercase text-primary fw-normal text-decoration-none">
+                                                    Configure Now
+                                                </a>
+                                            </button>
+                                        <br></br>
+                                            <span class="d-inline-block">
+                                                8
+                                            </span>
+                                            <span class="d-inline-block">
+                                                /8
+                                            </span>
+                                        </div>
+                                        
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#Gaming-pc-slider" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#Gaming-pc-slider" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <!--/Carousel Slider-->
+                                </div>
+
+                                <!--HOME AND SMALL OFFICE-->
+                                <div class="d-none">
+                                    <h5 class="mb-1 text-center fw-normal">
+                                        HOME AND SMALL OFFICE
+                                    </h5>
+                                    <!--Carousel Slider-->
+                                    <div id="Home-and-small-office-slider" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+        
+                                        <div class="carousel-item text-center active">
+                                            <img src="https://www.overclockers.co.uk/media/image/thumbnail/FS01TTL_192717_285x255.png" class="img-fluid d-block w-30" alt="...">
+                                            <p class="border-bottom pb-2">
+                                                Configure your ideal home or small office PC from a selection
+                                                of our most reliable components! OcUK Configurator PCs are built
+                                                & tested by our experts to ensure that your system is fast and reliable!
+                                            </p>
+                                            <h5 class="">
+                                                £480.92
+                                            </h5 class="">
+                                            <button class="btn btn-md btn-light rounded-0">
+                                                <a href="#" class="text-uppercase text-primary fw-normal text-decoration-none">
+                                                    Configure Now
+                                                </a>
+                                            </button>
+                                        <br></br>
+                                            <span class="d-inline-block">
+                                                1
+                                            </span>
+                                            <span class="d-inline-block">
+                                                /2
+                                            </span>
+                                        </div>
+        
+                                        <div class="carousel-item text-center">
+                                            <img src="https://www.overclockers.co.uk/media/image/thumbnail/FS013TL_259666_285x255.png" class="img-fluid d-block w-30" alt="...">
+                                            <p class="border-bottom pb-2">
+                                                Configure your ideal home or small office PC from a selection of our most reliable components!
+                                                OcUK Configurator PCs are built & tested by our experts to ensure that your system is fast and reliable!
+                                            </p>
+                                            <h5 class="">
+                                                £505.92
+                                            </h5 class="">
+                                            <button class="btn btn-md btn-light rounded-0">
+                                                <a href="#" class="text-uppercase text-primary fw-normal text-decoration-none">
+                                                    Configure Now
+                                                </a>
+                                            </button>
+                                        <br></br>
+                                            <span class="d-inline-block">
+                                                2
+                                            </span>
+                                            <span class="d-inline-block">
+                                                /2
+                                            </span>
+                                        </div>
+                                        
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#Home-and-small-office-slider" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#Home-and-small-office-slider" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <!--/Carousel Slider-->
+                                </div>
+                                
+
+                            </div>
+
+                            <!--Right Section-->
+                            <div class="col-4  d-none d-lg-block system-con-sidebar">
+                                <div class="d-flex">
+                                    <div>
+                                        <h6 class="mb-3 fw-normal">
+                                            PURE PASSION FOR CUSTOM PCS
+                                        </h6>
+                                        <p>
+                                            With years of experience in the industry, Overclockers UK are widely known for building some of the best custom gaming machines on the market.
+                                        </p>
+                                    </div>
+                                    <img src="https://www.overclockers.co.uk/media/image/custom-pcs.jpg" class="img-fluid sys-con-img" alt="">
+                                </div>
+                                <div class="d-flex mt-3">
+                                    <div>
+                                        <h6 class="mb-3 fw-normal">
+                                            HAND BUILT SYSTEMSHAND BUILT SYSTEMS
+                                        </h6>
+                                        <p>
+                                            Our team of experts, including our in-house overclocking guru Ian "8Pack" Parry, are on hand to craft your next PC, reliably performing time after time.
+                                        </p>
+                                    </div>
+                                    <img src="https://www.overclockers.co.uk/media/image/hand-build.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="d-flex mt-3">
+                                    <div class="align-self-center">
+                                        <p>
+                                            Our systems come with a fully comprehensive 3 year warranty, including parts & labour - all collected & returned by us! (UK Mainland Only)
+                                        </p>
+                                    </div>
+                                    <img src="https://www.overclockers.co.uk/media/image/warranty.png" class="img-fluid cst-warranty-img" alt="">
+                                </div>
+                            </div>
+                            
+                            <!--Mobile Right Section Down-->
+                            <div class="d-none d-sm-block d-md-block d-lg-none">
+                                <div class="d-flex py-5">
+                                    <div class="row">
+                                        <div class="col-6 col-md-4">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <h6 class="mb-3 fw-normal">
+                                                        PURE PASSION FOR CUSTOM PCS
+                                                    </h6>
+                                                    <p>
+                                                        With years of experience in the industry, Overclockers UK are widely known for building some of the best custom gaming machines on the market.
+                                                    </p>
+                                                </div>
+                                                <div class="col-6 ps-0">
+                                                    <img src="https://www.overclockers.co.uk/media/image/custom-pcs.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-4">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <h6 class="mb-3 fw-normal">
+                                                        HAND BUILT SYSTEMSHAND BUILT SYSTEMS
+                                                    </h6>
+                                                    <p>
+                                                        Our team of experts, including our in-house overclocking guru Ian "8Pack" Parry, are on hand to craft your next PC, reliably performing time after time.
+                                                    </p>
+                                                </div>
+                                                <div class="col-6">
+                                                    <img src="https://www.overclockers.co.uk/media/image/hand-build.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-4">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <p>
+                                                        Our systems come with a fully comprehensive 3 year warranty, including parts & labour - all collected & returned by us! (UK Mainland Only)
+                                                    </p>
+                                                </div>
+                                                <div class="col-6">
+                                                    <img src="https://www.overclockers.co.uk/media/image/warranty.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <!--About Overclockers Uk-->
+                        <div class="row text-light pb-0 pb-md-4 abt-ocuk">
+                            <!--Youtube video Section-->
+                            <div class="col-12 yt-video align-self-center col-md-6 ps-0 pe-0">
+                                <div class="ratio ratio-lg-1x1 ratio-16x9">
+                                    <iframe src="https://www.youtube.com/embed/Es0OJuS3dTE" title="YouTube video" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-4 px-3 mb-4 mb-lg-0 px-md-5 abt-ocuk-right">
+                                <h4>
+                                    ABOUT OVERCLOCKERS UK
+                                </h4>
+                                <p>
+                                    Overclockers UK is famous throughout the enthusiast PC community for its wide range of performance hardware, competitive prices and best in class customer service. Overclockers UK also host one of the most popular forums of its type in the UK, featuring a blend of computer, technology and lifestyle discussion topics
+                                </p>
+                                <p>
+                                    Overclockers UK offers the widest range of components and peripherals for your gaming PC needs. Overclockers UK products include: PC Gaming Systems, a range of Graphics cards from leading manufacturers, monitors - including 4k and ultrawide, powerful gaming laptops, high specification mobile workstations, Intel and AMD CPUs, ultra fast memory, probably the largest selection of PC cases, a great range of gaming motherboards, top quality gaming chairs, high-fidelity sound cards, speakers and gaming headsets, a fully comprehensive selection of watercooling parts, top quality gaming keyboards and mice, quiet and powerful air cooling fans and safe and efficient power supplies as well as much more.
+                                </p>
+                                <div class="col d-flex">
+                                    <a href="#" class="cst-btn-border">
+                                        SHOW MORE
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--3 Card Section-->
+                        <div class="row three-card-sec cst-bg-secondary  text-light">
+                            <div class="col-6 col-md-4 align-self-center p-3">
+                                <h5>
+                                    Events
+                                </h5>
+                                <small class="d-block">
+                                    Overclockers UK attends events all over the country, from Insomnia to EGX. Check out some of our past events and see why Overclockers UK is the enthusiasts choice.
+                                </small>
+                                <a href="#" class="cst-btn-border">
+                                    SHOW GALLERY
+                                </a>
+                            </div>
+                            <div class="col-6 col-md-4 align-self-center p-3">
+                                <h5>
+                                    BE UP TO DATE
+                                </h5>
+                                <small class="d-block">
+                                    Learn about the latest and greatest market-leading products, innovations and breakthroughs from the world of computing and technology.
+                                </small>
+                                <a href="#" class="cst-btn-border">
+                                    VISIT OUR BLOG
+                                </a>
+                            </div>
+                            <div class="col-6 col-md-4 align-self-center p-3">
+                                <h5>
+                                    OVERCLOCKERS COMMUNITY
+                                </h5>
+                                <small class="d-block">
+                                    From the latest news, deals and special offers to hardware tips and advice. Overclockers UK operates one of the largest and fastest growing online community forums in the UK. 
+                                </small>
+                                <a href="#" class="cst-btn-border">
+                                    VISIT OUR FORUM
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--3 Image Section-->
+                        <div class="row">
+                            
+                            <div class="col-4 pe-0 ps-0">
+                                <img src="https://www.overclockers.co.uk/media/image/ocuk-2017-events.jpg" class="cst-card-img img-fluid" alt="">
+                            </div>
+                            <div class="col-4 pe-0 ps-0">
+                                <img src="https://www.overclockers.co.uk/media/image/ocuk-2017-updates.jpg" class="cst-card-img img-fluid" alt="">
+                            </div>
+                            <div class="col-4 pe-0 ps-0">
+                                <img src="https://www.overclockers.co.uk/media/image/ocuk-2017-community.jpg" class="cst-card-img img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>          
+
+        <!--What Our Customers Say About Us-->
+        <section class="cst-bg-tertiary text-center">
+                <div class="container">
+                    <h5 class="fw-bold pt-4 px-2 px-lg-0">
+                        WHAT OUR CUSTOMERS SAY ABOUT US:
+                    </h5>
+                    <div class="row  py-5 gx-5 align-items-center">
+                        <div class="col-6 col-lg-3 py-4 bg-white">
+                            <h6 class="fw-bold border-bottom pb-1">
+                                OVERALL RATING:
+                            </h6>
+                            <h3 class="fw-bold">
+                                4.6
+                            </h3>
+                            <span class="text-warning h5">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill "></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </span>
+                            <small class="d-block">
+                                Google Customer Reviews
+                            </small class="block">
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <blockquote >
+                                <i class="fas fa-quote-left"></i> 
+                                    <p>Decent price, kept me updated with progress, well packed (and they chucked in some sweeties!) and good delivery. Great service overall.</p>
+                                <i class="fas fa-quote-right"></i>
+                            </blockquote>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <blockquote >
+                                <i class="fas fa-quote-left"></i>
+                                    <p>Great selection, community and service. Go D value as well. M.2 SSD works a charm, nice haribo as well :)</p> 
+                                <i class="fas fa-quote-right"></i>
+                            </blockquote>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <blockquote >
+                                <i class="fas fa-quote-left"></i> 
+                                    <p>Fast dispatch and delivery. It's great that you can use Amazon to pay for things on this website. Great range of different occasions component…</p>
+                                <i class="fas fa-quote-right"></i>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                
+        </section>
+
+        <!--Footer-->
+        <section class="cst-bg-secondary  p-3">
+                <footer>
+                    <div class="container">
+                        <div class="row">
+                            <!--Left Footer Section-->
+                            <div class="col-12 col-md-6 px-4 text-light cstbg-leftft">
+                                <!--First Section-->
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h6 class="mt-3">
+                                            YOU CAN PAY WITH:
+                                            <hr class="text-dark-50">
+                                        </h6>
+                                        <!--Payment Gateway Logo-->
+                                        <div class="row">
+                                            <div class="col-auto col-lg-4 csticonpd">
+                                                <i class="fab footer-icons  fa-cc-paypal" alt="PayPal Icon" aria-hidden="true" title="You can easily pay with PayPal"></i>
+                                            </div>
+                                            <div class="col-auto col-lg-4 csticonpd">
+                                                <i class="fab footer-icons fa-cc-mastercard" alt="Master Card Icon" aria-hidden="true" title="You can easily pay with Master Card"></i>
+                                            </div>
+                                            <div class="col-auto col-lg-4 csticonpd">
+                                                <i class="fab footer-icons fa-cc-visa" alt="visa Card Icon" aria-hidden="true" title="You can easily pay with VISA Card"></i>
+                                            </div>
+                                            <div class="col-auto col-lg-4">
+                                                <i class="fab footer-icons fa-cc-amex" alt="American Express Icon" aria-hidden="true" title="You can easily pay with VISA Card"></i>
+                                            </div>
+                                            <div class="col-auto col-lg-4">
+                                                <i class="fab footer-icons fa-cc-amazon-pay" alt="Amazon Card Icon" aria-hidden="true" title="You can easily pay with VISA Card"></i>
+                                            </div>
+                                            <div class="col-auto col-lg-4">
+                                                <img src="assets/image/Paybyfinance.svg"   class="footer-icons-img" alt="Pay by Personal Financen Icon" title="You can easily finance with Hitachi Personal Finance">
+                                            </div>
+                                        </div>
+                                        <p class="text-muted mt-3">
+                                            Credit subject to status and affordability. Terms & Conditions Apply. OcUK LTD trading as Overclockers UK is a credit broker and is Authorised and Regulated by the Financial Conduct Authority.
+                                        </p>
+                                        <p class="text-muted">
+                                            Credit is provided by Hitachi Personal Finance, a trading style of Hitachi Capital (UK) PLC, authorised and regulated by the Financial Conduct Authority. Financial Services Register no. 704348. The register can be accessed through 
+                                            <br> <a href="http://www.fca.org.uk" class="text-muted  text-decoration-none">http://www.fca.org.uk</a>
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <h6 class="mt-3">
+                                            WE DELIVER WITH:
+                                            <hr class="text-dark-50">
+                                        </h6>
+                                        <!--Delivery Service Icon-->
+                                        <div class="row row-cols-lg-3 g-2">
+                                            <div class="col-4">
+                                                <img src="assets/image/dpd.svg" class="footer-icons-img" alt="DPD" title="You can easily ship with DPD">
+                                            </div>
+                                            <div class="col-4">
+                                                <img src="assets/image/dhl.svg" class="footer-icons-img" alt="DHL" title="You can easily ship with DHL Worldwide">
+                                            </div>
+                                            <div class="col-4">
+                                                <img src="assets/image/royal-mail.svg" class="footer-icons-img" alt="Royal Mail" title="You can easily ship with Royal Mail">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Line Breaker-->
+                                <div>
+                                    <hr class="text-dark-50">
+                                </div>
+
+                                <!--Second Section-->
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h6 class="mt-3">
+                                            SHOP SERVICE
+                                        </h6>
+
+                                        <ul class="footer-list">
+                                            <li>
+                                                <a href="#" title="Contact Us" target="_self">Contact Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Delivery Options">Delivery Options</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Support" target="_self">Support</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Returns">Returns</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Gift Vouchers" target="_parent">Gift Vouchers</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Systems FAQ">Systems FAQ</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Finance FAQ">Finance FAQ</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Terms &amp; Conditions">Terms &amp; Conditions</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Modern Slavery Statement">Modern Slavery Statement</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Privacy Policy">Privacy Policy</a>
+                                            </li>
+                                        </ul>
+
+                                        <!--
+                                            <div>
+                                            <p class="border-bottom border-dark">1</p>
+                                            <p class="border-bottom border-dark">2</p>
+                                            <p class="border-bottom border-dark"></p>
+                                            <p class="border-bottom border-dark"></p>
+                                            <p class="border-bottom border-dark"></p>
+                                            <p class="border-bottom border-dark"></p>
+                                            <p class="border-bottom border-dark"></p>
+                                            <p class="border-bottom border-dark"></p>
+                                            <p class="border-bottom border-dark"></p>
+                                            <p class="border-bottom border-dark"></p>
+                                        </div> 
+                                        -->
+                                        
+                                    </div>
+                                    <div class="col-6">
+                                        <h6 class="mt-3">
+                                            INFORMATION
+                                        </h6>
+                                        <ul class="footer-list">
+                                            <li>
+                                                <a href="#" title="About Us">About Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Careers" target="_blank" rel="nofollow">Careers</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Support" target="_self">Support</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Blog" target="_blank">Blog</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Newsletter">Newsletter</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Affiliate Program" target="_self">Affiliate Program</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Welcome To PC Gaming">Welcome To PC Gaming</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Build Your Own PC">Build Your Own PC</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Sell to Caseking Group">Sell to Caseking Group</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <!--Line Breaker-->
+                                <div>
+                                    <hr class="text-dark-50">
+                                </div>
+
+                                <!--Third Section-->
+                                <div class="row align-items-start">
+                                    <div class="col-6">
+                                        <img src="assets/image/years-trust.svg" class="w-50" alt="over 20 years of experience">
+                                    </div>
+                                    <div class="col-6">
+                                        <h6 class="mt-3">        
+                                            OUR COMMUNITIES
+                                        </h6>
+                                        <span class="Social-icon">
+                                            <a href="#" class="text-decoration-none h5">
+                                                <i class="bi bi-chat-text"></i>
+                                            </a>
+                                            <a href="#" class="text-decoration-none h5">
+                                                <i class="bi bi-youtube"></i>
+                                            </a>
+                                            <a href="#" class="text-decoration-none  h5">
+                                                <i class="bi bi-facebook"></i>
+                                            </a>
+                                            <a href="#" class="text-decoration-none h5">
+                                                <i class="bi bi-twitter"></i>
+                                            </a>
+                                            <a href="#" class="text-decoration-none h5">
+                                                <i class="bi bi-instagram"></i>
+                                            </a>
+                                            <a href="#" class="text-decoration-none h5">
+                                                <i class="bi bi-linkedin"></i>
+                                            </a>
+                                            <a href="#" class="text-decoration-none h5">
+                                                <i class="bi bi-rss"></i>
+                                            </a>
+                                            <a href="#" class="text-decoration-none h5">
+                                                <i class="bi bi-twitch"></i>
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <!--Line Breaker-->
+                                <div>
+                                    <hr class="text-dark-50">
+                                </div>
+
+                                <!--Four Section-->
+                                <div>
+                                    <p class="text-center">
+                                        All price include VAT at 20%
+                                    </p>
+                                </div>
+                                
+                                
+                            </div>
+
+                            <!--Right Footer Section-->
+                            <div class="col-12 col-md-6 mt-5 mt-md-0 px-4">
+                                <!--NewsLetter Section-->
+                                <div class="px-4 pb-3 text-light">
+                                    <div class="cstnews-bg px-4">
+                                        <!--Heading Titlr-->
+                                        <h6 class="pt-3 text-uppercase text-center">        
+                                            Newsletter Sign Up
+                                        </h6>
+                                        <!--Line Breaker-->
+                                        <div>
+                                            <hr class="text-dark-50 mb-0">
+                                        </div>
+                                        <!--NewsLetter Form Section-->
+                                        <div class="row pb-2 align-items-start">
+                                            <div class="col-12 col-md-4">
+                                                <p class="">
+                                                    Register now for the latest products and special offers!
+                                                </p>
+                                            </div>
+                                            <div class="col-12 col-md-8">
+                                                <span class="col-12 col-md-4">
+                                                    Recaptcher section
+                                                </span>
+                                                <!--Form-->
+                                                <form class="d-flex Subcribe col-12 col-lg-8">
+                                                    <div class="col-12 pb-2">
+                                                        <input class="form-control subcribe-form me-2 bg-transparent text-light col-12" type="text" placeholder="Your email address" aria-label="Emailhelp">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <button class="btn btn-md btn-primary" type="submit">Subcribe</button>
+                                                    </div>
+                                                </form>
+                                                <!--/Form-->
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--Overclockers UK Section-->
+                                    <h6 class="pt-3 text-uppercase text-center">        
+                                        OVERCLOCKERS UK:
+                                    </h6>
+                                    <!--Line Breaker-->
+                                    <div>
+                                        <hr class="text-dark-50">
+                                    </div>
+                                    <!--Local Store Section-->
+                                    <div class="col-6">
+                                        <p class="fw-bold m-1">
+                                            Visit our local store
+                                        </p>
+                                        <p class="text-muted">
+                                            Our retail outlet is temporarily closed due to Covid-19.
+                                            Please order online and use our click and collect service.
+                                        </p>
+
+                                        <a href="#" class="text-decoration-none ">
+                                            <small class="cst-btn-border">
+                                                <i class="bi bi-geo-alt-fill small"></i> VIEW ON GOOGLE MAPS 
+                                            </small>
+                                        </a>
+                                        
+                                    </div>
+                                    <!--Line Breaker-->
+                                    <div>
+                                        <hr class="text-dark-50">
+                                    </div>
+                                    <!--Flagship Brandstore-->
+                                    <div>
+                                        <p class="fw-bold m-1">
+                                            Flagship Brandstore
+                                        </p>
+
+                                        <!--Flagship Brandstore Brands-->
+                                        <span class="list-bordered">
+                                            <a href="#" class>8Pack</a>
+                                            <a href="#">AeroCool</a>
+                                            <a href="#">ASUS</a>
+                                            <a href="#">BitFenix</a> 
+                                            <a href="#">Corsair</a> 
+                                            <a href="#">Crucial</a> 
+                                            <a href="#">Endgame Gear</a> 
+                                            <a href="#">EVGA</a> 
+                                            <a href="#">Gigabyte</a> 
+                                            <a href="#">Kingston</a> 
+                                            <a href="#">Kolink</a> 
+                                            <a href="#">Lian Li</a> 
+                                            <a href="#">MSI</a> 
+                                            <a href="#">NZXT</a> 
+                                            <a href="#">Nitro Concepts</a> 
+                                            <a href="#">noblechairs</a> 
+                                            <a href="#">Phanteks</a> 
+                                            <a href="#">Raijintek</a>
+                                            <a href="#">Samsung</a> 
+                                            <a href="#">Sapphire</a>
+                                            <a href="#">Super Flower</a> 
+                                            <a href="#">Team Group</a> 
+                                            <a href="#">Thermal Grizzly</a> 
+                                            <a href="#">ThunderX3</a> 
+                                            <a href="#">Zotac</a>
+                                        </span>
+                                    </div>
+                                    <!--Line Breaker-->
+                                    <div>
+                                        <hr class="text-dark-50">
+                                    </div>
+                                    <!--Top Categories-->
+                                    <div>
+                                        <p class="fw-bold m-1">
+                                            Top Categories
+                                        </p>
+                                        <!--Top Categories Tags-->
+                                        <span class="list-bordered">
+                                            <a href="#"> NVIDIA Graphics Cards</a>
+                                            <a href="#">Gaming PCs</a>
+                                            <a href="#">Gaming Chairs</a>
+                                            <a href="#">Gaming Keyboards</a>
+                                            <a href="#">AMD Graphics Cards</a>
+                                            <a href="#">G-Sync Monitors</a>
+                                            <a href="#">Gaming Mice</a>
+                                            <a href="#">Headsets</a> 
+                                            <a href="#">Laptops</a> 
+                                            <a href="#">Streaming</a>
+                                        </span>
+                                    </div>
+                                    <!--Certificates Section-->
+                                    <h6 class="pt-3 text-uppercase text-center">        
+                                        CERTIFICATES:
+                                    </h6>
+                                    <!--Line Breaker-->
+                                    <div>
+                                        <hr class="text-dark-50">
+                                    </div>
+                                    <!--Images Section-->
+                                    <div class="text-center">
+                                        <img src="https://www.overclockers.co.uk/media/image/certificates.png" class="w-75" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Copyright -->
+                            <div class="text-center mx-4 my-3">
+                                <small>Copyright © 2021 OCUK Limited</small>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+        </section>
+            
+        <!--Bootstrap CDN-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+        
+    </body>
+    
+</html>
